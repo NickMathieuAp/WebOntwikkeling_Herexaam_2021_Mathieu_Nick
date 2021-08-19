@@ -1,0 +1,22 @@
+<%- include('./partials/header.ejs') %>
+
+<div class="plantData">
+    <h1> Overzicht planten</h1>
+    <ul>
+        <% for(let i =0; i<planten.length; i++) {%>
+
+            <li>
+                <%= planten[i].name %> <br/>
+                <p>foto: <%= planten[i].state %> <br/></p>
+                <p>Staat: <%= planten[i].state %> <br/></p>
+                <p>Coördinaten: <%= planten[i].coordinates %> <br/></p>
+                <a href="/plantenbib/<%= planten[i]._id%>">Back</a>
+                <a href="<%= planten[i].deleteOne%>">Delete</a>
+                <a href="/plantenbib/<%= planten[i]%>">Edit</a>
+            </li>
+        
+                <% }; %>
+    </ul>
+</div>
+
+<%- include('./partials/footer.ejs') %>

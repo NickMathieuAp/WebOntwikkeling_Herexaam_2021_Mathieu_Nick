@@ -1,0 +1,20 @@
+<svg id="Laag_1" data-name="Laag 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: red;
+        stroke-width: 4px;
+      }
+
+      .cls-2 {
+        fill: red;
+      }
+    </style>
+  </defs>
+  <g>
+    <circle class="cls-1" cx="32" cy="32" r="30"/>
+    <rect class="cls-2" x="29.73" y="0.4" width="4.32" height="62.08" transform="translate(31.58 -13.34) rotate(45)"/>
+    <rect class="cls-2" x="30.06" y="0.32" width="4.32" height="62.9" transform="translate(77.47 31.46) rotate(135)"/>
+  </g>
+</svg>
